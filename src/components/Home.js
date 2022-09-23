@@ -1,5 +1,12 @@
 import React from 'react'
 import Section from './Section'
+import img3 from '../images/model-3.jpg'
+import imgy from '../images/model-y.jpg'
+import imgs from '../images/model-s.jpg'
+import imgx from '../images/model-x.jpg'
+import imgpanel from '../images/solar-panel.jpg'
+import imgroof from '../images/solar-roof.jpg'
+import imgacc from '../images/accessories.jpg'
 
 function Home() {
   return (
@@ -8,7 +15,7 @@ function Home() {
         <Section 
             title="Model 3"
             description="Order Online for Touchless Delivery"
-            backgroundImg= "/images/model-3.jpg"
+            backgroundImg= {img3}
             leftBtnTxt= "Custom Order"
             rightBtnTxt= "Existing Inventory"
         />
@@ -16,7 +23,7 @@ function Home() {
         <Section 
             title="Model Y"
             description="Order Online for Touchless Delivery"
-            backgroundImg= "/images/model-y.jpg"
+            backgroundImg= {imgy}
             leftBtnTxt= "Custom Order"
             rightBtnTxt= "Existing Inventory"
         />
@@ -24,7 +31,7 @@ function Home() {
         <Section 
             title="Model s"
             description="Order Online for Touchless Delivery"
-            backgroundImg= "/images/model-s.jpg"
+            backgroundImg= {imgs}
             leftBtnTxt= "Custom Order"
             rightBtnTxt= "Existing Inventory"
         />
@@ -32,7 +39,7 @@ function Home() {
         <Section 
             title="Model X"
             description="Order Online for Touchless Delivery"
-            backgroundImg= "/images/model-x.jpg"
+            backgroundImg= {imgx}
             leftBtnTxt= "Custom Order"
             rightBtnTxt= "Existing Inventory"
         />
@@ -40,7 +47,7 @@ function Home() {
         <Section 
             title="Solar Panels"
             description="Lowest Cost Solar Panels in America"
-            backgroundImg= "/images/solar-panel.jpg"
+            backgroundImg= {imgpanel}
             leftBtnTxt= "Order Now"
             rightBtnTxt= "Learn More"
         />
@@ -49,7 +56,7 @@ function Home() {
             title="Solar Roof"
             description="Produce Clean Energy
             From Your Roof"
-            backgroundImg= "/images/solar-roof.jpg"
+            backgroundImg= {imgroof}
             leftBtnTxt= "Order Now"
             rightBtnTxt= "Learn More"
         />
@@ -57,7 +64,7 @@ function Home() {
           <Section 
             title="Accessories"
             // description="Order Online for Touchless Delivery"
-            backgroundImg= "/images/accessories.jpg"
+            backgroundImg= {imgacc}
             leftBtnTxt= "Shop Now"
             // rightBtnTxt= "Existing Inventory"
         />

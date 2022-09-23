@@ -1,5 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import down from '../images/down-arrow.svg'
 
 function Section({title, description, leftBtnTxt, rightBtnTxt, backgroundImg}) {
   return (
@@ -30,7 +31,7 @@ function Section({title, description, leftBtnTxt, rightBtnTxt, backgroundImg}) {
                 </div>
             </Fade>
             <div className='downArrow'>
-                <img src="/images/down-arrow.svg" alt="downArrow" />
+                <img src={down} alt="downArrow" />
             </div>
         </div>
     </div>

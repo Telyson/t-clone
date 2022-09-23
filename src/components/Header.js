@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import logo1 from '../images/logo.svg'
 
 import BurgerNav from './BurgerNav';
 
@@ -15,7 +16,7 @@ export default function Header() {
     <div className='container'>
       <div className='logoImg'>
         <a>
-          <img src="images/logo.svg" alt="logo" />
+          <img src={logo1} alt="logo" />
         </a>
       </div>
 
